@@ -1,3 +1,7 @@
+//The objective is to return the array arranged in an 
+//alternate order such that max value is followed by min value in a descending fashion, so that the 1st element is the 
+//max value, 2nd element is the min value, 3rd element is the second max value, 4th element is the second min value & so on.
+
 const prompt=require("prompt-sync")({sigint:true}); 
   
 var a=prompt("give the array size");
